@@ -97,4 +97,50 @@ body #content #luxury {
 body #content #luxury .learn_more {
   color: #004241;
 }
+
+@media screen and (min-width: 1440px) {
+  body {
+    height: 100vh;
+  }
+  body #content {
+    height: 70%;
+    width: 70%;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin: 15vh auto;
+  }
+  body #content section img {
+    margin-bottom: 3rem;
+  }
+  body #content section p {
+    line-height: 1.7rem;
+    padding-right: 1.7rem;
+    word-spacing: 0.2rem;
+  }
+  body #content section .learn_more {
+    margin-top: 3.5rem;
+  }
+  body #content section .learn_more:hover {
+    background-color: inherit;
+    border: 1px solid #fff;
+    cursor: pointer;
+  }
+  body #content #sedans {
+    border-radius: 7px 0 0 7px;
+  }
+  body #content #sedans .learn_more:hover {
+    color: #fff;
+  }
+  body #content #suvs .learn_more:hover {
+    color: #fff;
+  }
+  body #content #luxury {
+    border-radius: 0 7px 7px 0;
+  }
+  body #content #luxury .learn_more:hover {
+    color: #fff;
+  }
+}
 /*# sourceMappingURL=styles.css.map */
